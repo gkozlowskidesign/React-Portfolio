@@ -53,7 +53,6 @@ const links =[
 
             </li>
             ))}
-        <li className="px-4 cursor-pointer capitalize py-6 text-3xl">home</li>
         </ul> 
         )}
 
