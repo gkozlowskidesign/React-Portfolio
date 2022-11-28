@@ -18,49 +18,49 @@ function App() {
   return (
     <Router>
     <div className="App">
-     <NavBar/>
+     <NavBar />
       <div className="content">
         <Switch>
           <Route exact path="/">
-          <Home/>
-          <Publications/>
-          <Experience/>
-          <Portfolio/>
-          <Social/>
-          <Contact/>
+          <Home />
+          <Publications />
+          <Experience />
+          <Portfolio />
+          <Social />
+          <Contact />
           </Route>
           <Route  path="/background/education">
-          <Experience/>
-          <Social/> 
+          <Experience />
+          <Social /> 
           </Route>
           <Route  path="/background/experience">  
-          <Experience/> 
-          <Social/>
+          <Experience /> 
+          <Social />
           </Route>
           <Route  path="/background/freelance">
-          <Experience/> 
-          <Social/>
+          <Experience /> 
+          <Social />
           </Route>
           <Route  path="/project-documentation-liquorstore-website">
-          <Wine/> 
+          <Wine /> 
           </Route>
           <Route  path="/project-documentation-dashboard-user-interface">
-          <Dashboard/> 
+          <Dashboard /> 
           </Route>
           <Route  path="/project-documentation-portfolio-website">
-          <Iteration/> 
+          <Iteration /> 
           </Route>
           <Route  path="/project-documentation-restaurant-website">
-          <Restaurant/> 
+          <Restaurant /> 
           </Route>
           <Route  path="/project-documentation-healthcare-web-application">
-          <Health/> 
+          <Health /> 
           </Route>
           <Route  path="/project-documentation-software-user-interface">
-          <Metaverse/> 
+          <Metaverse /> 
           </Route>
           <Route  path="/project-documentation-software-website">
-          <Metaverse/> 
+          <Metaverse /> 
           </Route>
           <Route  path="/publications">
           <Projects/> 
