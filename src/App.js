@@ -44,31 +44,31 @@ function App() {
           <Experience/> 
           <Social/>
           </Route>
-          <Route  path="/project/documentation/liquorstore/website">
+          <Route  path="/project-documentation-liquorstore-website">
           <NavBar/>
           <Wine/> 
           </Route>
-          <Route  path="/project/documentation/dashboard/user-interface">
+          <Route  path="/project-documentation-dashboard-user-interface">
           <NavBar/>
           <Dashboard/> 
           </Route>
-          <Route  path="/project/documentation/portfolio/website">
+          <Route  path="/project-documentation-portfolio-website">
           <NavBar/>
           <Iteration/> 
           </Route>
-          <Route  path="/project/documentation/restaurant/website">
+          <Route  path="/project-documentation-restaurant-website">
           <NavBar/>
           <Restaurant/> 
           </Route>
-          <Route  path="/project/documentation/healthcare/web-application">
+          <Route  path="/project-documentation-healthcare-web-application">
           <NavBar/>
           <Health/> 
           </Route>
-          <Route  path="/project/documentation/software/user-interface">
+          <Route  path="/project-documentation-software-user-interface">
           <NavBar/>
           <Metaverse/> 
           </Route>
-          <Route  path="/project/documentation/software/website">
+          <Route  path="/project-documentation-software-website">
           <NavBar/>
           <Metaverse/> 
           </Route>
