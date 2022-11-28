@@ -18,10 +18,10 @@ function App() {
   return (
     <Router>
     <div className="App">
+     <NavBar/>
       <div className="content">
         <Switch>
           <Route exact path="/">
-          <NavBar/>
           <Home/>
           <Publications/>
           <Experience/>
@@ -30,50 +30,39 @@ function App() {
           <Contact/>
           </Route>
           <Route  path="/background/education">
-          <NavBar/>
           <Experience/>
           <Social/> 
           </Route>
-          <Route  path="/background/experience">
-          <NavBar/>
+          <Route  path="/background/experience">  
           <Experience/> 
           <Social/>
           </Route>
           <Route  path="/background/freelance">
-          <NavBar/>
           <Experience/> 
           <Social/>
           </Route>
           <Route  path="/project-documentation-liquorstore-website">
-          <NavBar/>
           <Wine/> 
           </Route>
           <Route  path="/project-documentation-dashboard-user-interface">
-          <NavBar/>
           <Dashboard/> 
           </Route>
           <Route  path="/project-documentation-portfolio-website">
-          <NavBar/>
           <Iteration/> 
           </Route>
           <Route  path="/project-documentation-restaurant-website">
-          <NavBar/>
           <Restaurant/> 
           </Route>
           <Route  path="/project-documentation-healthcare-web-application">
-          <NavBar/>
           <Health/> 
           </Route>
           <Route  path="/project-documentation-software-user-interface">
-          <NavBar/>
           <Metaverse/> 
           </Route>
           <Route  path="/project-documentation-software-website">
-          <NavBar/>
           <Metaverse/> 
           </Route>
           <Route  path="/publications">
-          <NavBar/>
           <Projects/> 
           <Social/>
           </Route>
