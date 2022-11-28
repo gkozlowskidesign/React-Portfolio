@@ -5,7 +5,7 @@ import React from 'react'
         {
             id: 2,
             name: 'Website Development',
-            href: '/project/documentation/liquorstore/website',
+            href: '/project-documentation-liquorstore-website',
             ImageSrc: 'https://github.com/gkozlowskidesign/metaverseot/blob/main/src/assets/cindys.png?raw=true',
             ImageAlt: 'Portfolio Website'
        
@@ -13,7 +13,7 @@ import React from 'react'
         { 
             id: 1,
             name: 'Website Development',
-            href: '/project/documentation/software/website',
+            href: '/project-documentation-software-website',
             ImageSrc: 'https://github.com/gkozlowskidesign/metaverseot/blob/main/src/assets/meta.png?raw=true',
             ImageAlt: 'Portfolio Website'
         
@@ -21,7 +21,7 @@ import React from 'react'
         {
             id: 5,
             name: 'Website Development',
-            href: '/project/documentation/portfolio/website',
+            href: '/project-documentation-portfolio-website',
             ImageSrc: 'https://github.com/gkozlowskidesign/React-Portfolio/blob/main/src/assets/Personal%20Website%20(REACT).png?raw=true',
             ImageAlt: 'Portfolio Website'
 
@@ -29,7 +29,7 @@ import React from 'react'
         {
             id: 4,
             name: 'Application Mockup (UI)',
-            href: '/project/documentation/dashboard/user-interface',
+            href: '/project-documentation-dashboard-user-interface',
             ImageSrc: 'https://github.com/gkozlowskidesign/metaverseot/blob/main/src/assets/dash.png?raw=true',
             ImageAlt: 'Portfolio Website'
       
@@ -38,7 +38,7 @@ import React from 'react'
         {
             id: 6,
             name: 'Website Development',
-            href: '/project/documentation/restaurant/website',
+            href: '/project-documentation-restaurant-website',
             ImageSrc: 'https://github.com/gkozlowskidesign/React-Portfolio/blob/main/src/assets/Restaurant%20Website%20(HTML).png?raw=true',
             ImageAlt: 'Portfolio Website'
       
@@ -46,7 +46,7 @@ import React from 'react'
         {
             id: 6,
             name: 'Application Design (UI)',
-            href: '/project/documentation/software/user-interface',
+            href: '/project-documentation-software-user-interface',
             ImageSrc: 'https://github.com/gkozlowskidesign/React-Portfolio/blob/main/src/assets/Social%20SaaS%20UI.png?raw=true',
             ImageAlt: 'Portfolio Website'
       
@@ -54,7 +54,7 @@ import React from 'react'
         {
             id: 6,
             name: 'Application Development',
-            href: '/project/documentation/healthcare/web-application',
+            href: '/project-documentation-healthcare-web-application',
             ImageSrc: 'https://github.com/gkozlowskidesign/React-Portfolio/blob/main/src/assets/covid.png?raw=true',
             ImageAlt: 'Portfolio Website'
       
@@ -62,7 +62,7 @@ import React from 'react'
         {
             id: 6,
             name: 'Website Development',
-            href: '/project/documentation/portfolio/website',
+            href: '/project-documentation-portfolio-website',
             ImageSrc: 'https://github.com/gkozlowskidesign/React-Portfolio/blob/main/src/assets/port-1%20copy.png?raw=true',
             ImageAlt: 'Portfolio Website'
       
