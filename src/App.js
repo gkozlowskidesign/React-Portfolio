@@ -20,7 +20,7 @@ function App() {
     <div className="App">
       <div className="content">
         <Switch>
-          <Route exact path="/overview">
+          <Route exact path="/">
           <NavBar/>
           <Home/>
           <Publications/>
