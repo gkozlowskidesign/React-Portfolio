@@ -1,4 +1,5 @@
 import React from 'react'
+import {  BiReset, BiHighlight,  BiWrench, BiDetail } from "react-icons/bi";
 
 
 
@@ -38,14 +39,14 @@ const products = [
                     
 <div name="portfolio"   className=' bg-gradient-to-r from-gray-900  to-indigo-900 w-full text-white'>
         
-<div className="w-9/12 mx-auto flex justify-center">
+<div className="w-9/12  mx-auto flex justify-center">
 
-        <section class="bg-gray-900 rounded-3xl p-16">
+        <section class="bg-gray-900 rounded-3xl p-10">
 
-        <div class="sm:grid grid-cols-5 grid-rows-1 py-2  pace-y-6 sm:space-y-0 sm:gap-6 rounded-3xl mb-40">
+        <div class="sm:grid grid-cols-5 grid-rows-1  pace-y-6 sm:space-y-0 sm:gap-6 rounded-3xl mb-40">
                             <div class="h-96 col-span-4  bg-gradient-to-r from-gray-900  to-indigo-900 rounded-3xl flex items-center">
-                                <div class="ml-20 w-2/6 p-10 rounded-3xl   bg-gradient-to-r from-gray-900  to-indigo-900 ring-4 ring-gray-900">
-                                    <h2 class="text-white text-4xl text-center font-extrabold ">Application Mockup<br></br>UI</h2>
+                                <div class="ml-20 w-2/6 p-4 rounded-3xl   bg-gradient-to-r from-gray-900  to-indigo-900 ring-4 ring-gray-900">
+                                    <h2 class="text-white text-2xl text-center font-extrabold ">Application Mockup<br></br>UI</h2>
                                 </div>
                             </div>
 
@@ -53,11 +54,11 @@ const products = [
 
                                 <div class="rounded-3xl">
                                     <div class="rounded-md list-none  text-center mt-1 ring-4 ring-gray-900 bg-gray-900">
-                                        <li class="py-11 rounded-md order-2 border-gray-800 bg-indigo-900 hover:bg-gray-900 ring-2 ring-gray-900 mb-2 cursor-pointer"><a href="https://github.com/gkozlowskidesign/WebApplication.github.io" class="list-none text-2xl font-bold text-white hover:text-indigo-600">Repository</a></li>
+                                        <li class="py-11 rounded-2xl order-2 border-gray-800 bg-indigo-900 hover:bg-gray-900 ring-2 ring-gray-900 mb-4 cursor-pointer"><a href="https://github.com/gkozlowskidesign/WebApplication.github.io" class="list-none text-xl font-bold text-white hover:text-indigo-600">Repository</a></li>
                                       
-                                        <li class="py-11 rounded-md border-gray-800 bg-indigo-900  hover:bg-gray-900 ring-2 ring-gray-900 mb-2 cursor-pointer"><a href="https://gkozlowskidesign.github.io/WebApplication.github.io/" class="list-none text-2xl font-bold text-white hover:text-indigo-600">Preview</a></li>
+                                        <li class="py-11 rounded-2xl border-gray-800 bg-indigo-900  hover:bg-gray-900 ring-2 ring-gray-900 mb-4 cursor-pointer"><a href="https://gkozlowskidesign.github.io/WebApplication.github.io/" class="list-none text-xl font-bold text-white hover:text-indigo-600">Preview</a></li>
                                        
-                                        <li class="py-11 rounded-md border-gray-800 bg-indigo-900 hover:bg-gray-900  ring-2 ring-gray-900  cursor-pointer"><a href="/" class="list-none text-2xl font-bold text-white hover:text-indigo-600">Go Back</a></li>                                
+                                        <li class="py-11 rounded-2xl border-gray-800 bg-indigo-900 hover:bg-gray-900  ring-2 ring-gray-900  cursor-pointer"><a href="/" class="list-none text-xl font-bold text-white hover:text-indigo-600">Go Back</a></li>                                
                                  
                                     </div>
                                 </div>                        
@@ -67,7 +68,7 @@ const products = [
 
 
                         <hr></hr>
-    <div class="container mx-auto px-2 pt-20">
+    <div class="container mx-auto px-2 pt-10">
 
         
 
@@ -111,12 +112,12 @@ const products = [
 {products.map((product) => (
 <a key={product.id} href={product.href} className="group rounded-3xl bg-gray-900">
 <div className="aspect-w-1 aspect-h-1 w-full mx-auto overflow-hidden rounded-3xl xl:aspect-w-7 xl:aspect-h-8">
-<h3 className="mt-4 p-4 text-3xl text-center font-bold text-white">{product.name}</h3>
+<h3 className="mt-4 p-4 text-2xl text-center font-bold text-white">{product.name}</h3>
 </div>
 
 
 
-<h3 className="mt-4 p-8 text-2xl bg-gray-800 text-gray-400 ring-4 ring-gray-900 rounded-3xl"><span className='text-white text-2xl font-extrabold'>Description: </span> {product.description}</h3>
+<h3 className="mt-4 p-8  bg-gray-800 text-gray-400 ring-4 ring-gray-900 rounded-3xl"><span className='text-white text-xl font-extrabold'>Description </span> {product.description}</h3>
 
 </a>
 ))}
@@ -127,6 +128,10 @@ const products = [
 </div>
 )
 }
+
+
+     
+        
 
 
      
