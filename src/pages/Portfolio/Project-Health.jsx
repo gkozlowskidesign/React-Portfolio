@@ -54,14 +54,14 @@ export default function Example() {
             <h3 class="mt-4 mb-4 text-3xl  text-center font-semibold capitalize text-white">Tablet UI</h3>
             <br></br>
 
-                <img class="h-50 w-full bg-gray-800 rounded-lg object-cover  ring-4 ring-gray-800" src="https://github.com/gkozlowskidesign/React-Portfolio/blob/main/src/assets/Phone%20-%20Mockup%20-%20Healthcare.png?raw=true" alt="" />
+                <img class="h-50 w-full bg-gray-800 rounded-lg object-cover  ring-4 ring-gray-800" src="https://github.com/gkozlowskidesign/React-Portfolio/blob/main/src/assets/Tablet%20-%20Mockup%20-%20Healthcare.png?raw=true" alt="" />
              
             </div>
 
             <div>
             <h3 class="mt-4 mb-4 text-3xl  text-center font-semibold capitalize text-white">Mobile UI</h3>
        <br></br>
-                <img class="h-50 w-full bg-gray-800 rounded-lg object-cover  ring-4 ring-gray-800" src="https://github.com/gkozlowskidesign/React-Portfolio/blob/main/src/assets/Tablet%20-%20Mockup%20-%20Healthcare.png?raw=true" alt="" />
+                <img class="h-50 w-full bg-gray-800 rounded-lg object-cover  ring-4 ring-gray-800" src="https://github.com/gkozlowskidesign/React-Portfolio/blob/main/src/assets/Phone%20-%20Mockup%20-%20Healthcare.png?raw=true" alt="" />
                
             </div>
 
