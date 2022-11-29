@@ -1,5 +1,4 @@
 import React from 'react'
-import {  BiReset, BiHighlight,  BiWrench, BiDetail } from "react-icons/bi";
 
 
 
