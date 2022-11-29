@@ -76,8 +76,6 @@ export default function Example() {
     </section>
 </div>
 </div>
-)
-}
 
 
      
