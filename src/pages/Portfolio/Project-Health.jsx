@@ -1,38 +1,5 @@
 import React from 'react'
-
-
-
-
-const products = [
-    {
-      id: 1,
-      name: 'Requirements',
-      description: "Coming Soon....",
-      href: 'https://mirror.xyz/0x38034A81D48cBf8D4c4C757856d14492C848015b/9StXr96qlubzk57TmUcAxv6L9E7PHj_T3vlGytGs_4k',
-      imageSrc: 'https://mirror-media.imgix.net/publication-images/w8ZcP23A9IAKFGrT-YN3s.jpeg?height=1400&width=2800&h=1400&w=2800&auto=compress',
-      imageAlt: 'web3 concepts',
-    },
-    {
-        id: 9,
-        name: 'Development',
-        description: "Coming Soon....",
-        href: 'https://mirror.xyz/0x38034A81D48cBf8D4c4C757856d14492C848015b/e3ekBjU5NnKr087koz4oaFMnKi3JQO0MTrsNw9c1tRc',
-        imageSrc: 'https://mirror-media.imgix.net/publication-images/jhEW9kY3ukKX4zR-fXQg1.jpeg?height=1400&width=2800&h=1400&w=2800&auto=compress',
-        imageAlt: 'web3 projects',
-      },
-    {
-      id: 3,
-      name: 'Management',
-      description: "Coming Soon....",
-      href: 'https://mirror.xyz/0x38034A81D48cBf8D4c4C757856d14492C848015b/89q_BcgSPYyYStmMj-q_f8m1yT_wj1Grpd27KeUVs6c',
-      imageSrc: 'https://mirror-media.imgix.net/publication-images/5oRxqPQ-3f__rdIEkK7up.jpeg?height=1400&width=2800&h=1400&w=2800&auto=compress',
-      imageAlt: 'web3 concepts',
-    },
-    // More products...
-  ]
-  
-
-  export default function Example() {
+export default function Example() {
     return (
       
                     
