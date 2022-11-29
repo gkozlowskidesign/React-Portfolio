@@ -1,121 +1,134 @@
-import {  BiReset, BiHighlight,  BiWrench, BiDetail } from "react-icons/bi";
 import React from 'react'
+import {  BiReset, BiHighlight,  BiWrench, BiDetail } from "react-icons/bi";
 
 
 
-const About = () => {
 
+const products = [
+    {
+      id: 1,
+      name: 'Requirements',
+      description: "Motivated, passionate, and highly driven Project Manager and Developer with in depth experience working in a wide variety of technical environments. Comprehensive knowledge of configuring, managing, optimizing, and  troubleshooting software, marketing, and entire IT infrastructures at small to medium scale. Comprehensive knowledge of configuring, managing, optimizing, and  troubleshooting software, marketing, and entire IT infrastructures at small to medium scale.",
+      href: 'https://mirror.xyz/0x38034A81D48cBf8D4c4C757856d14492C848015b/9StXr96qlubzk57TmUcAxv6L9E7PHj_T3vlGytGs_4k',
+      imageSrc: 'https://mirror-media.imgix.net/publication-images/w8ZcP23A9IAKFGrT-YN3s.jpeg?height=1400&width=2800&h=1400&w=2800&auto=compress',
+      imageAlt: 'web3 concepts',
+    },
+    {
+        id: 9,
+        name: 'Development',
+        description: "Motivated, passionate, and highly driven Project Manager and Developer with in depth experience working in a wide variety of technical environments. Comprehensive knowledge of configuring, managing, optimizing, and  troubleshooting software, marketing, and entire IT infrastructures at small to medium scale. Comprehensive knowledge of configuring, managing, optimizing, and  troubleshooting software, marketing, and entire IT infrastructures at small to medium scale.",
+        href: 'https://mirror.xyz/0x38034A81D48cBf8D4c4C757856d14492C848015b/e3ekBjU5NnKr087koz4oaFMnKi3JQO0MTrsNw9c1tRc',
+        imageSrc: 'https://mirror-media.imgix.net/publication-images/jhEW9kY3ukKX4zR-fXQg1.jpeg?height=1400&width=2800&h=1400&w=2800&auto=compress',
+        imageAlt: 'web3 projects',
+      },
+    {
+      id: 3,
+      name: 'Management',
+      description: "Motivated, passionate, and highly driven Project Manager and Developer with in depth experience working in a wide variety of technical environments. Comprehensive knowledge of configuring, managing, optimizing, and  troubleshooting software, marketing, and entire IT infrastructures at small to medium scale. Comprehensive knowledge of configuring, managing, optimizing, and  troubleshooting software, marketing, and entire IT infrastructures at small to medium scale.",
+      href: 'https://mirror.xyz/0x38034A81D48cBf8D4c4C757856d14492C848015b/89q_BcgSPYyYStmMj-q_f8m1yT_wj1Grpd27KeUVs6c',
+      imageSrc: 'https://mirror-media.imgix.net/publication-images/5oRxqPQ-3f__rdIEkK7up.jpeg?height=1400&width=2800&h=1400&w=2800&auto=compress',
+      imageAlt: 'web3 concepts',
+    },
+    // More products...
+  ]
+  
 
-  return (
-    <div className='bg-gray-900'>
-            <div name="about" className='w-full h-100'>
+  export default function Example() {
+    return (
+      
+                    
+<div name="portfolio"   className=' bg-gradient-to-r from-gray-900  to-indigo-900 w-full text-white'>
         
-             
-            </div>
-                    <section>
-                        <div class="bg-gray-900 sm:grid grid-cols-5 grid-rows-1 px-4 py-6 min-w-full lg:min-w-screen space-y-6 sm:space-y-0 sm:gap-4">
-                            <div class="h-96 col-span-4 bg-gradient-to-r from-gray-900  to-indigo-900 rounded-md flex items-center">
-                                <div class="ml-20 w-80">
-                                    <h2 class="text-white text-4xl font-extrabold">District Healthcare</h2>
-                                    <h2 class="text-white text-2xl font-extrabold">Applicaiton Development</h2>
+<div className="w-9/12 mx-auto flex justify-center">
+
+        <section class="bg-gray-900 rounded-3xl p-16">
+
+        <div class="sm:grid grid-cols-5 grid-rows-1 py-2  pace-y-6 sm:space-y-0 sm:gap-6 rounded-3xl mb-40">
+                            <div class="h-96 col-span-4  bg-gradient-to-r from-gray-900  to-indigo-900 rounded-3xl flex items-center">
+                                <div class="ml-20 w-2/6 p-10 rounded-3xl   bg-gradient-to-r from-gray-900  to-indigo-900 ring-4 ring-gray-900">
+                                    <h2 class="text-white text-4xl text-center font-extrabold ">Application Mockup<br></br>UI</h2>
                                 </div>
                             </div>
 
                             <div class="h-96">
-                                <div class="bg-gray-100 py-5 px-4 rounded-lg flex justify-around items-center ">
-                                    <span>
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor ">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-                                        </svg>
-                                    </span>
-                                </div>
 
-                                <div class="bg-gray-800  rounded-md">
-                                    <div class="bg-gray-800 rounded-md list-none  text-center mt-8">
-                                        
-                                        <li class="py-6 rounded-md ring-2 ring-black  hover:bg-gradient-to-r from-gray-900  to-indigo-700 cursor-pointer"><a href="https://github.com/gkozlowskidesign/WebApplication.github.io" class="list-none text-white hover:text-indigo-600">Repository</a></li>
-                                        <li class="py-6 rounded-md ring-2 ring-black  hover:bg-gradient-to-r from-gray-900  to-indigo-700 cursor-pointer"><a href="https://github.com/gkozlowskidesign/WebApplication.github.io#introduction-to-the-problem" class="list-none text-white hover:text-indigo-600">Documentation</a></li>                                
-                                        <li class="py-6 rounded-md ring-2 ring-black  hover:bg-gradient-to-r from-gray-900  to-indigo-700 cursor-pointer"><a href="https://gkozlowskidesign.github.io/WebApplication.github.io/" class="list-none text-white hover:text-indigo-600">Preview</a></li>
-                                        <li class="py-6 rounded-md ring-2 ring-black  hover:bg-gradient-to-r from-gray-900  to-indigo-700 cursor-pointer"><a href="/" class="list-none text-white hover:text-indigo-600">Go Back</a></li>                                
-                                        
+                                <div class="rounded-3xl">
+                                    <div class="rounded-md list-none  text-center mt-1 ring-4 ring-gray-900 bg-gray-900">
+                                        <li class="py-11 rounded-md order-2 border-gray-800 bg-indigo-900 hover:bg-gray-900 ring-2 ring-gray-900 mb-2 cursor-pointer"><a href="https://github.com/gkozlowskidesign/WebApplication.github.io" class="list-none text-2xl font-bold text-white hover:text-indigo-600">Repository</a></li>
+                                      
+                                        <li class="py-11 rounded-md border-gray-800 bg-indigo-900  hover:bg-gray-900 ring-2 ring-gray-900 mb-2 cursor-pointer"><a href="https://gkozlowskidesign.github.io/WebApplication.github.io/" class="list-none text-2xl font-bold text-white hover:text-indigo-600">Preview</a></li>
+                                       
+                                        <li class="py-11 rounded-md border-gray-800 bg-indigo-900 hover:bg-gray-900  ring-2 ring-gray-900  cursor-pointer"><a href="/" class="list-none text-2xl font-bold text-white hover:text-indigo-600">Go Back</a></li>                                
+                                 
                                     </div>
                                 </div>                        
                             </div>
                         </div>
-                    </section>
 
 
-                    <div class="bg-gray-800">
-                            <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
-                                <div class="font-light text-gray-500 sm:text-lg dark:text-gray-400">
-                                <h2 class="mb-4 text-3xl font-extrabold text-gray-900 dark:text-white ">Quick Start</h2>
-                                    <p class="mb-4">Coming Soon...</p>
-                                </div>
-                            </div>
-                    </div>
-                    <div class="container mx-auto p-2 px-4 bg-gray-900">
 
- 
-                    <div class="flex flex-wrap bg-gray-900">
-                            <div class="w-full items-center justify-center md:w-11/12 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-4 lg:px-6 gap-6 ">
-                                <div class="relative flex flex-col mt-4 mb-5 bg-gray-900">
-                                    <div class="px-4 py-5 flex-auto ring-2 ring-indigo-400 rounded-md bg-gray-800">
-                                        <div class="text-white p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-5 shadow-lg rounded-full bg-gradient-to-b from-black  to-indigo-700 ">
-                                        <BiDetail class="w-8 h-8" alt="MTOT" />  
-                                        </div>
-                                        <h6 class="mb-4 text-2xl font-extrabold text-gray-900 dark:text-white">Project Details</h6>
-                                        <p class="font-light text-gray-500 sm:text-lg dark:text-gray-400">Coming Soon...</p>
-                                    </div>
-                                </div>
-                                <div class="relative flex flex-col min-w-0 mt-4 mb-5">
-                                    <div class="px-4 py-5 flex-auto ring-2 ring-indigo-400 rounded-md bg-gray-800">
-                                        <div class="text-white p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-5 shadow-lg rounded-full bg-gradient-to-b from-black  to-indigo-700 ">
-                                        <BiHighlight class="w-8 h-8" alt="MTOT" />              
-                                        </div>
-                                            <h6 class="mb-4 text-2xl font-extrabold text-gray-900 dark:text-white">Project Design</h6>
-                                            <p class="font-light text-gray-500 sm:text-lg dark:text-gray-400">Coming Soon...</p>
-                                    </div>
-                                </div>
-                             </div>
-                             <div class="w-full md:w-11/12 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-4 lg:px-6 gap-6 mb-20">
-                                <div class="relative flex flex-col min-w-0 mt-4 mb-5">
-                                    <div class="px-4 py-5 flex-auto ring-2 ring-indigo-400 rounded-md bg-gray-800">
-                                    <div class="text-white p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-5 shadow-lg rounded-full bg-gradient-to-b from-black  to-indigo-700 ">
-                                    <BiReset class="w-8 h-8" alt="MTOT" />  
-                                    </div>
-                                    <h6 class="mb-4 text-2xl font-extrabold text-gray-900 dark:text-white">Project Development</h6>
-                                    <p class="font-light text-gray-500 sm:text-lg dark:text-gray-400">Coming Soon...</p>
+                        <hr></hr>
+    <div class="container mx-auto px-2 pt-20">
 
-                                    </div>
-                                </div>
-                                
-                                <div class="relative flex flex-col min-w-0 mt-4 mb-5">
-                                    <div class="px-4 py-5 flex-auto ring-2 ring-indigo-400 rounded-md bg-gray-800">
-                                    <div class="text-white p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-5 shadow-lg rounded-full bg-gradient-to-b from-black  to-indigo-700 ">
-                                    <BiWrench class="w-8 h-8" alt="MTOT" />  
-                                    </div>
-                                    <h6 class="mb-4 text-2xl font-extrabold text-gray-900 dark:text-white">Project Resources</h6>
-                                    <p class="font-light text-gray-500 sm:text-lg dark:text-gray-400">Coming Soon...</p>
+        
 
-                                    </div>
-                                </div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                </div>
 
-   
+
+        <div class="mx-14 mb-40 flex">
+        <div class="mt-2">
+            <div class="grid grid-cols-1 gap-10 md:grid-cols-2 xl:grid-cols-3 rounded-xl">
+            <div>
+            <h3 class="mt-4 mb-4 text-3xl text-center font-semibold capitalize text-white">Desktop UI</h3>
+            <br></br>
+                <img className="h-50 w-full  bg-gray-800 rounded-xl ring-4 ring-gray-800" src="https://github.com/gkozlowskidesign/React-Portfolio/blob/main/src/assets/Desktop%20-%20Mockup%20-%20Healthcare.png?raw=true" alt="" />
             
-                
+            </div>
+
+            <div>
+            <h3 class="mt-4 mb-4 text-3xl  text-center font-semibold capitalize text-white">Mobile UI</h3>
+       <br></br>
+                <img class="h-50 w-full bg-gray-800 rounded-lg object-cover  ring-4 ring-gray-800" src="https://github.com/gkozlowskidesign/React-Portfolio/blob/main/src/assets/Tablet%20-%20Mockup%20-%20Healthcare.png?raw=true" alt="" />
+               
+            </div>
+
+            <div>
+            <h3 class="mt-4 mb-4 text-3xl  text-center font-semibold capitalize text-white">Tablet UI</h3>
+            <br></br>
+
+                <img class="h-50 w-full bg-gray-800 rounded-lg object-cover  ring-4 ring-gray-800" src="https://github.com/gkozlowskidesign/React-Portfolio/blob/main/src/assets/Phone%20-%20Mockup%20-%20Healthcare.png?raw=true" alt="" />
+             
+            </div>
+            </div>
+        </div>
+        
+        </div>
+    </div>
 
     
-                 
+<hr></hr>
+
+    <div className='p-14 mt-16 grid grid-cols-1 sm:grid-cols-3 md:grid-cols-3 gap-10 mb-10 rounded-3xl'>
+
+{products.map((product) => (
+<a key={product.id} href={product.href} className="group rounded-3xl bg-gray-900">
+<div className="aspect-w-1 aspect-h-1 w-full mx-auto overflow-hidden rounded-3xl xl:aspect-w-7 xl:aspect-h-8">
+<h3 className="mt-4 p-4 text-3xl text-center font-bold text-white">{product.name}</h3>
+</div>
 
 
-  )
+
+<h3 className="mt-4 p-8 text-2xl bg-gray-800 text-gray-400 ring-4 ring-gray-900 rounded-3xl"><span className='text-white text-2xl font-extrabold'>Description: </span> {product.description}</h3>
+
+</a>
+))}
+
+</div>
+    </section>
+</div>
+</div>
+)
 }
 
 
-
-export default About
+     
+        
