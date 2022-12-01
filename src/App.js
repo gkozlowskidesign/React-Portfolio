@@ -10,7 +10,7 @@ import Restaurant from "./pages/Portfolio/Project-Restaurant";
 import Metaverse from "./pages/Portfolio/Project-Metaverse";
 import Dashboard from "./pages/Portfolio/Project-Dashboard";
 import Iteration from "./pages/Portfolio/Project-Portfolio";
-import HTMLPort from "./pages/Portfolio/Project-Portfolio-V1";
+import HTMLPort from "./pages/Portfolio/Project-HTMLPort";
 import Health from "./pages/Portfolio/Project-Health";
 import Publications from "./pages/Overview/Publications";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
