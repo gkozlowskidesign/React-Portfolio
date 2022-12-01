@@ -45,7 +45,7 @@ import React from 'react'
         {
             id: 6,
             name: 'HTML, CSS, & JS',
-            href: '/project-documentation-portfolio-website-v1',
+            href: '/project-documentation-portfolio-website-html',
             ImageSrc: 'https://github.com/gkozlowskidesign/React-Portfolio/blob/main/src/assets/port-1%20copy.png?raw=true',
             ImageAlt: 'Portfolio Website'
       
