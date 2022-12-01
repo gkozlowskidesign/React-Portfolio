@@ -61,7 +61,7 @@ import React from 'react'
                         
     <div name="portfolio"   className=' bg-gradient-to-r from-gray-900  to-indigo-900 w-full text-white '>
             
-    <div className="max-w-screen-lg p-14 mx-auto flex flex-col justify-center w-full">
+            <div className="mx-auto max-w-2xl py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
         
         <div className='pb-8 mt-20'>
             <p className="text-4xl font-bold inline border-b-4 ml-6 border-indigo-500">Portfolio</p>
