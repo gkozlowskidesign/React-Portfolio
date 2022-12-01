@@ -11,7 +11,7 @@ import { Squares2X2Icon} from '@heroicons/react/20/solid'
 const solutions = [
   {
     name: 'Dashboard',
-    href: '/overview',
+    href: '/',
     icon: CubeTransparentIcon,
   },
   { name: 'Publications', 
