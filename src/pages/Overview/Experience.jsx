@@ -1,14 +1,14 @@
 import React from 'react'
 const About = () => {
   return (
-    <div name="about" className='h-4/5 w-full bg-gradient-to-r from-gray-900  to-indigo-900 text-white'>
+    <div name="about" className='h-5/5 w-full bg-gradient-to-r from-gray-900  to-indigo-900 text-white'>
 
-    <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center  px-10 md:flex-row'>
-        <div className='flex flex-col justify-center m-4 sm:m-2'>
+<div className="mx-auto max-w-2xl py-16 px-4 sm:py-24 lg:max-w-7xl lg:px-8">
+        <div className='flex flex-col justify-center'>
         <div className="pb-8">
                 <p className="text-4xl font-bold inline border-b-4 border-indigo-500">Background</p>
             </div>
-        <div className="max-w-screen-lg p-4 px-4 sm:p-20 mb-10 flex flex-col justify-center w-full h-full bg-indigo-900 ring-4 ring-gray-900 rounded-xl">
+        <div className="p-3 mx-auto mb-10 justify-center w-full h-full bg-indigo-900 ring-4 ring-gray-900 rounded-xl">
            
             <p className="sm:text-lg text-sm mt-6 sm:mt-0 sm:mb-6 rounded-xl  bg-gray-800 text-white p-6 mx-6  border-2 border-indigo-500 shadow-2xl">
             Motivated, passionate, and highly driven Project Manager and Developer 
