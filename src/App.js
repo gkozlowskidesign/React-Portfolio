@@ -29,18 +29,6 @@ function App() {
           <Social />
           <Contact />
           </Route>
-          <Route  path="/background/education">
-          <Experience />
-          <Social /> 
-          </Route>
-          <Route  path="/background/experience">  
-          <Experience /> 
-          <Social />
-          </Route>
-          <Route  path="/background/freelance">
-          <Experience /> 
-          <Social />
-          </Route>
           <Route  path="/project-documentation-liquorstore-website">
           <Wine /> 
           </Route>
@@ -64,10 +52,6 @@ function App() {
           </Route>
           <Route  path="/project-documentation-portfolio-website-html">
           <HTMLPort /> 
-          </Route>
-          <Route  path="/publications">
-          <Projects/> 
-          <Social/>
           </Route>
       </Switch>
       </div>
