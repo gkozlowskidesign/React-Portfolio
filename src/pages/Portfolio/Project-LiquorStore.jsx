@@ -54,7 +54,7 @@ export default function Example() {
             <h3 class="mt-4 mb-4 text-3xl  text-center font-semibold capitalize text-white">Tablet UI</h3>
             <br></br>
 
-                <img class="h-50 w-full bg-gray-800 rounded-lg object-cover  ring-4 ring-gray-800" src="https://github.com/gkozlowskidesign/React-Portfolio/blob/main/src/assets/Tablet%20-%20Mockup%20-%20LiquorStore.png?raw=true" alt="" />
+                <img class="h-50 w-full bg-gray-800 rounded-lg object-cover  ring-4 ring-gray-800" src="https://github.com/gkozlowskidesign/React-Portfolio/blob/761cf8e2b28e9bb5388a4f243330b1a5606345e0/src/assets/Tablet%20-%20Mockup%20-%20LiquorStore.png?raw=true" alt="" />
              
             </div>
 
