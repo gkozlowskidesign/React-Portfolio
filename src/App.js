@@ -25,7 +25,9 @@ function App() {
           <Route exact path="/">
           <Home />
           <Portfolio />
-          <Experience />
+         
+          <Projects/> 
+     <Experience />
           <Publications />
           <Social />
           <Contact />
