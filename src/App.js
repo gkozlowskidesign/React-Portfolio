@@ -10,7 +10,7 @@ import Restaurant from "./pages/Portfolio/Project-Restaurant";
 import Metaverse from "./pages/Portfolio/Project-Metaverse";
 import Dashboard from "./pages/Portfolio/Project-Dashboard";
 import Iteration from "./pages/Portfolio/Project-Portfolio";
-import Iteration1 from "./pages/Portfolio/Project-Portfolio-V1";
+import HTMLPort from "./pages/Portfolio/Project-Portfolio-HTML";
 import Health from "./pages/Portfolio/Project-Health";
 import Publications from "./pages/Overview/Publications";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
@@ -63,8 +63,8 @@ function App() {
           <Route  path="/project-documentation-software-website">
           <Metaverse /> 
           </Route>
-          <Route  path="/project-documentation-portfolio-website-v1">
-          <Iteration1 /> 
+          <Route  path="/project-documentation-portfolio-website-html">
+          <HTMLPort /> 
           </Route>
           <Route  path="/publications">
           <Projects/> 
