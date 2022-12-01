@@ -12,7 +12,6 @@ import Dashboard from "./pages/Portfolio/Project-Dashboard";
 import Iteration from "./pages/Portfolio/Project-Portfolio";
 import HTMLPort from "./pages/Portfolio/Project-HTMLPort";
 import Health from "./pages/Portfolio/Project-Health";
-import Publications from "./pages/Overview/Publications";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
@@ -25,10 +24,8 @@ function App() {
           <Route exact path="/">
           <Home />
           <Portfolio />
-         
+          <Experience />
           <Projects/> 
-     <Experience />
-          <Publications />
           <Social />
           <Contact />
           </Route>
