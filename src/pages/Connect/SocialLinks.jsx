@@ -12,7 +12,7 @@ const SocialLinks = () => {
                     LinkedIn <FaLinkedin size={25} />
                 </>
             ),
-            href: 'https://linkedin.com',
+            href: 'https://www.linkedin.com/in/gary-kozlowski-825053138/',
             style: 'rounded-tr-md'
         },
         {
