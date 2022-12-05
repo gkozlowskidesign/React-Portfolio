@@ -14,10 +14,6 @@ const solutions = [
     href: '/',
     icon: CubeTransparentIcon,
   },
-  { name: 'Publications', 
-  href: '/publications', 
-  icon: BookmarkIcon, 
-  },
 ]
 
 
