@@ -1,10 +1,11 @@
 import NavBar from "./layouts/Navigation";
+
 import Home from "./pages/Overview/Home";
 import Experience from "./pages/Overview/Experience";
 import Social from "./pages/Connect/SocialLinks";
 import Portfolio from "./pages/Overview/Portfolio";
 import Contact from "./pages/Overview/Contact";
-import Projects from "./pages/Publications/Publications-Medium";
+
 import Wine from "./pages/Portfolio/Project-LiquorStore";
 import Restaurant from "./pages/Portfolio/Project-Restaurant";
 import Metaverse from "./pages/Portfolio/Project-Metaverse";
@@ -12,7 +13,9 @@ import Dashboard from "./pages/Portfolio/Project-Dashboard";
 import Iteration from "./pages/Portfolio/Project-Portfolio";
 import HTMLPort from "./pages/Portfolio/Project-HTMLPort";
 import Health from "./pages/Portfolio/Project-Health";
+
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import React from 'react'
 
 function App() {
   return (
@@ -25,7 +28,6 @@ function App() {
           <Home />
           <Portfolio />
           <Experience />
-          <Projects/> 
           <Social />
           <Contact />
           </Route>
