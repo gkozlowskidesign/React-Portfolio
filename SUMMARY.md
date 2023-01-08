@@ -1,7 +1,6 @@
 # Table of contents
 
-* [GaryKozlowski](README.md)
-  * [Modules](garykozlowski/modules.md)
+* [ReadMe.GaryKozlowski](README.md)
 
 ## Design
 
